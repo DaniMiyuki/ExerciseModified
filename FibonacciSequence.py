@@ -1,3 +1,4 @@
+
 def funcao(numero):
     t1 = 0
     t2 = 1
@@ -9,8 +10,9 @@ def funcao(numero):
         t1 =t2
         t2= t3
         cont +=1
-    return t3
+        textototal = t1, t2, t3
+    sequence_text["text"] = textototal
+
 
 
 nE = int(input('Digite o numero de sequencia desejada: '))
-funcao(nE)
