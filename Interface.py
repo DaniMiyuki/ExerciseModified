@@ -23,7 +23,10 @@ def funcao():
 
 window = Tk()
 window.title("Fibonacci Sequence")
-window.geometry('500x250')
+window.geometry('500x250+500+400')
+
+#window.state("zoomed") or ("iconic") estado inicial do aplicativo
+#window.iconbitmap("images/ nome da imagem.ico")
 
 
 orientation_text = Label(window, text=" Write a number below ")
